@@ -806,6 +806,13 @@ p {
 .form {
   display: flex;
   flex-direction: column;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--grey);
 }
 
 .form2 {
@@ -820,8 +827,25 @@ p {
   letter-spacing: 0.03em;
   color: var(--black);
   padding-top: 40px;
-  padding-right: 40px;
-  padding-left: 40px;
+  margin-bottom: 30px;
+}
+
+.field {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 28px;
+  width: 448px;
+  height: 40px;
+}
+
+.field-text {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  width: 448px;
+  height: 120px;
 }
 
 .agreement-text {

@@ -347,6 +347,13 @@
                 </li>
             </ul>
             </div>
+            <div class="subscribe">
+                <h3 class="icon-title">Подпишитесь на рассылку</h3>
+                <form action="mail.php">
+                    <input type="email" name="email" id="" placeholder="E-mail">
+                    <button class="title-button" type="submit">Подписаться</button>
+                </form>
+            </div>
             </div>
         </footer>
     <div class="backdrop is-hidden" data-modal>
@@ -372,12 +379,15 @@
                     Почта
                     <input class="field" type="email" name="email">
                 </label>
-                    <textarea class="field" name="message" id="" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                <label class="form">
+                    Комментарий
+                    <textarea class="field-text" name="message" id="" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                </label>
                 <div class="form2">
                     <input class="agreement" type="checkbox" name="agreement" value="agreement" id="agreement">
                     <label class="agreement-text" for="agreement">Соглашаюсь с рассылкой и принимаю <span class="agreement-text">Условия договора</span></label>
+                    <button class="title-button" type="submit">Отправить</button>
                 </div>
-                <button class="title-button" type="submit">Отправить</button>
             </form>
         </div>
     </div>  
