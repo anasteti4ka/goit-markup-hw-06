@@ -348,9 +348,9 @@
             </ul>
             </div>
             <div class="subscribe">
-                <h3 class="icon-title">Подпишитесь на рассылку</h3>
+                <h3 class="sub-title">Подпишитесь на рассылку</h3>
                 <form action="mail.php">
-                    <input type="email" name="email" id="" placeholder="E-mail">
+                    <input class="sub-email" type="email" name="email" id="" placeholder="E-mail">
                     <button class="title-button" type="submit">Подписаться</button>
                 </form>
             </div>
@@ -363,32 +363,46 @@
                     <use href="./img/icons/sprite.svg.svg#exit"></use>
                 </svg>
             </button>
-            <h1 class="form-text">
-                Оставьте свои данные, мы вам перезвоним
-            </h1>
-            <form class="form" action="mail.php">
-                <label class="form">
-                    Имя
-                    <input class="field" type="text" name="user_name">
-                </label>
-                <label class="form">
-                    Телефон
-                    <input class="field" type="tel" name="phone_number">
-                </label>
-                <label class="form">
-                    Почта
-                    <input class="field" type="email" name="email">
-                </label>
-                <label class="form">
-                    Комментарий
-                    <textarea class="field-text" name="message" id="" cols="30" rows="10" placeholder="Введите текст"></textarea>
-                </label>
-                <div class="form2">
-                    <input class="agreement" type="checkbox" name="agreement" value="agreement" id="agreement">
-                    <label class="agreement-text" for="agreement">Соглашаюсь с рассылкой и принимаю <span class="agreement-text">Условия договора</span></label>
-                    <button class="title-button" type="submit">Отправить</button>
-                </div>
-            </form>
+            <div class="contmodule">
+                <h1 class="form-text">
+                    Оставьте свои данные, мы вам перезвоним
+                </h1>
+                <form class="form" action="mail.php">
+                    <label class="label">
+                        Имя
+                        <input class="field" type="text" name="user_name">
+                        <svg class="modul-name-icon-svg">
+                            <use href="./img/icons/sprite.svg.svg#modul-name"></use>
+                        </svg>
+                    </label>
+                    <label class="label">
+                        Телефон
+                        <input class="field" type="tel" name="phone_number">
+                        <svg class="modul-phone-icon-svg">
+                            <use href="./img/icons/sprite.svg.svg#modul-phone"></use>
+                        </svg>
+                    </label>
+                    <label class="label">
+                        Почта
+                        <input class="field" type="email" name="email">
+                        <svg class="modul-email-icon-svg">
+                            <use href="./img/icons/sprite.svg.svg#modul-email"></use>
+                        </svg>
+                    </label>
+                    <label class="label">
+                        Комментарий
+                        <textarea class="field-text" name="message" id="" cols="30" rows="10" placeholder="Введите текст"></textarea>
+                    </label>
+                    <div class="form2">
+                        <input class="agreement" type="checkbox" name="agreement" value="agreement" id="agreement">
+                        <label class="agreement-text" for="agreement">Соглашаюсь с рассылкой и принимаю <span class="agreement-text">Условия договора</span>
+                            <div class="button-centre">
+                                <button class="form-button" type="submit">Отправить</button>
+                            </div>
+                        </label>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>  
 <script src="./js/model.js"></script>

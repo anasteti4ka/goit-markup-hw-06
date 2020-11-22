@@ -763,6 +763,40 @@ p {
   opacity: 1;
 }
 
+.subscribe {
+  margin-left: 93px;
+}
+
+.sub-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.sub-email {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: var(--lightblack);
+  width: 358px;
+  height: 50px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  margin-right: 12px;
+  font-weight: normal;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+}
+
 .module {
   position: absolute;
   background-color: var(--white);
@@ -770,7 +804,6 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 528px;
-  height: 581px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -803,6 +836,15 @@ p {
   margin: 0;
 }
 
+.contmodule {
+  width: 528px;
+  height: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -827,13 +869,17 @@ p {
   letter-spacing: 0.03em;
   color: var(--black);
   padding-top: 40px;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 
 .field {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 42px;
+  margin-top: 4px;
   margin-bottom: 28px;
   width: 448px;
   height: 40px;
@@ -843,9 +889,48 @@ p {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  margin-top: 4px;
   margin-bottom: 20px;
   width: 448px;
   height: 120px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+
+.modul-name-icon-svg {
+  position: absolute;
+  top: 104px;
+  right: 458px;
+  margin: 0;
+  width: 18px;
+  height: 18px;
+  fill: var(--black);
+}
+
+.modul-phone-icon-svg {
+  position: absolute;
+  top: 172px;
+  right: 458px;
+  margin: 0;
+  width: 18px;
+  height: 18px;
+  fill: var(--black);
+}
+
+.modul-email-icon-svg {
+  position: absolute;
+  top: 240px;
+  right: 458px;
+  margin: 0;
+  width: 18px;
+  height: 18px;
+  fill: var(--black);
 }
 
 .agreement-text {
@@ -854,4 +939,24 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--grey);
+}
+
+.form-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  padding: 10px 55px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0px;
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+.button-centre {
+  display: flex;
+  justify-content: center;
 }
