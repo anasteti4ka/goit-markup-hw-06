@@ -374,7 +374,7 @@
                 <form class="form" action="mail.php">
                     <label class="label">
                         Имя
-                        <input class="field field1" type="text" name="user_name">
+                        <input class="field" type="text" name="user_name">
                         <svg class="modul-name-icon-svg">
                             <use href="./img/icons/sprite.svg.svg#modul-name"></use>
                         </svg>
@@ -398,8 +398,13 @@
                         <textarea class="field-text" name="message" id="" cols="30" rows="10" placeholder="Введите текст"></textarea>
                     </label>
                     <div class="form2">
-                        <input class="agreement" type="checkbox" name="agreement" value="agreement" id="agreement">
-                        <label class="agreement-text" for="agreement">Соглашаюсь с рассылкой и принимаю <span class="agreement-text"> <a class="agreement-link" href="">Условия договора</a></span>
+                        <label class="agreement-text" for="agreement">
+                        <input class="checkbox" type="checkbox" name="agreement" value="agreement" id="agreement">
+                            <svg class="checkbox-icon">
+                                <use href="./img/icons/sprite.svg.svg#checkbox-icon"></use>
+                            </svg>
+                        Соглашаюсь с рассылкой и принимаю <span class="agreement-text">
+                        <a class="agreement-link" href="">Условия договора</a></span>
                             <div class="button-centre">
                                 <button class="form-button" type="submit">Отправить</button>
                             </div>
