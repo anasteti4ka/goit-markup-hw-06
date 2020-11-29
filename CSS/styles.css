@@ -571,6 +571,7 @@ p {
 
 .flexbox-footer {
   display: flex;
+  justify-content: space-between;
 }
 
 .icon-title {
@@ -813,7 +814,10 @@ p {
   display: inline-block;
   background-color: var(--accent-color);
   color: var(--white);
-  width: 215px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 62px;
+  padding-left: 29px;
 }
 
 .button-footer-icon-svg {
